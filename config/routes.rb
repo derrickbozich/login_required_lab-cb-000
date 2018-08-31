@@ -15,6 +15,7 @@ Rails.application.routes.draw do
     resources :sessions
     resources :secrets
     post '/sessions' => 'sessions#destroy'
+    get '/user' => 'sessions#show'
 
   # Example resource route with options:
   #   resources :products do
