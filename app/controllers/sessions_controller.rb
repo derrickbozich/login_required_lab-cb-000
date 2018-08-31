@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
     else
       redirect_to '/sessions/show'
     end
-    
+
   end
 
   def new
