@@ -3,6 +3,7 @@ class SessionsController < ApplicationController
     if current_user.nil?
       redirect_to new_session_path
     else
+      binding.pry
       session[:name] = params[:name]
       redirect_to secrets_path
     end
