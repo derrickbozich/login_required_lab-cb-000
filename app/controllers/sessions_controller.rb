@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
   def create
-    if condition
-
+    if current_user.nil?
+      redirect_to :new
     else
 
     end
