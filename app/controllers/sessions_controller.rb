@@ -6,11 +6,9 @@ class SessionsController < ApplicationController
     else
       redirect_to user_path
     end
-
   end
 
   def new
-
   end
 
   def show
