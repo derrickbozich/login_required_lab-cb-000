@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
     if current_user.nil?
       redirect_to :new
     else
-
+      redirect_to '/sessions/show'
     end
     
   end
