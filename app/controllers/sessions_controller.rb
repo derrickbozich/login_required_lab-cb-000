@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     else
 
 
-      redirect_to session_path()
+      redirect_to user_path
     end
 
   end
