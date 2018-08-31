@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
     else
 
     end
-    current_user
+    
   end
 
   def new
