@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     else
 
 
-      redirect_to secrets_path
+      redirect_to session_path()
     end
 
   end
