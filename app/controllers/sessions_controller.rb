@@ -1,9 +1,9 @@
 class SessionsController < ApplicationController
   def create
     if current_user.nil?
-      redirect_to :new
+      redirect_to sessions_path
     else
-      redirect_to '/sessions/show'
+      redirect_to secrets_path
     end
 
   end
